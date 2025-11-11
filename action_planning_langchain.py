@@ -29,7 +29,7 @@ knowledge = """
 """
 theme = "boiled, scrambled or fried eggs"
 from langchain_openai import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 
 # LangChain provides a unified interface for LLM providers:
 # - OpenAI, Anthropic, Google, Cohere, and more
